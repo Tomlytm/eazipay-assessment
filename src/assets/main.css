@@ -1,0 +1,75 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Your custom styles */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../assets/fonts/aeonik/new/AeonikTRIAL-Bold.otf'),
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-BoldItalic.otf'),
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-Light.otf'),
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-LightItalic.otf'),
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-Regular.otf'),
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-RegularItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aeonik-normal';
+  src:
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-Regular.otf'),
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-RegularItalic.otf');
+  font-weight:700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aeonik-light';
+  src:
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-Light.otf'),
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-Regular.otf'),
+  url('../assets/fonts/aeonik/new/AeonikTRIAL-RegularItalic.otf');
+  font-weight:700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'made-mellow';
+  src:
+  url('../assets/fonts/made-mellow/MADEMellowPERSONALUSE-SemiBold.otf');
+  font-weight:700;
+  font-style: normal;
+}
+.aeonik {
+  font-family: 'Aeonik', sans-serif;
+}
+.aeonik-light {
+  font-family: 'Aeonik-light', sans-serif;
+}
+
+body {
+  font-family: 'Aeonik-normal', sans-serif;
+}
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+.made-mellow {
+  font-family: 'made-mellow', sans-serif;
+}
+.shadoww {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.shadowww {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.hideScrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}
